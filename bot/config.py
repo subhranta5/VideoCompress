@@ -17,7 +17,7 @@ class Config(object):
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
         int(x) for x in get_config(
-            "AUTH_USERS","715779594 699615803 809546777 461650361715779594 699615803 809546777 1794860440"
+            "AUTH_USERS","715779594 699615803 809546777 461650361715779594 699615803 809546777 1794860440",
             should_prompt=True
         ).split()
     )
