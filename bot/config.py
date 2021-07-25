@@ -26,7 +26,7 @@ class Config(object):
     # Telegram maximum file upload size
     BOT_USERNAME = get_config("BOT_USERNAME", "Videocompressurbot")
     MAX_FILE_SIZE = 2097152000
-    TG_MAX_FILE_SIZE = 2097152000
+    TG_MAX_FILE_SIZE = 209715200
     FREE_USER_MAX_FILE_SIZE = 2097152000
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = get_config("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
