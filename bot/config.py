@@ -7,7 +7,7 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "CompressorBot")
     
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "1873967215:AAHj9ZjXV7J9yodIuqKZ3dLhuXhZmwQDG-I")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "1905078333:AAFv3h0JzSwsDUOBmj8Gic7K0jh6snLb3JE")
     # The Telegram API things
     APP_ID = int(get_config("APP_ID", 6252680))
     API_HASH = get_config("API_HASH", "2ae08a73819c57a93f5381d05746e511")
@@ -24,7 +24,7 @@ class Config(object):
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = get_config("BOT_USERNAME", "Videocompressurbot")
+    BOT_USERNAME = get_config("BOT_USERNAME", "Vidscomprobot")
     MAX_FILE_SIZE = 2097152000
     TG_MAX_FILE_SIZE = 209715200
     FREE_USER_MAX_FILE_SIZE = 2097152000
